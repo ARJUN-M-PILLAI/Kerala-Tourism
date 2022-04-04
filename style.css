@@ -5,10 +5,6 @@ margin: 0%;}
     text-align: center;
 }
 
-.card-text{
-    text-align: justify;
-}
-
 body{
     background-size: cover;
 }
@@ -35,6 +31,85 @@ header{background-color: rgb(250, 185, 7);
         background-color: black;
         color: white;
         transition:0.2s ease-in-out;}
+
+/* index.html */
+#home{
+    background-color: beige;
+}
+
+
+/*Footer*/
+footer{
+    background-color: black;
+    height: 1.5em;
+    margin-top: 42%;
+}
+
+footer h6{
+    text-align: center;
+    color: white;
+}
+/* Footer ends */
+
+/* login.html */
+form{
+    padding-left: 20%;
+    padding-top: 2%;
+    padding-right: 20%;
+}
+
+.logincontainer{
+    float: right;
+    border: 2px solid rgb(7, 7, 7);
+    background-color: rgb(234, 234, 181);
+    height: 25em;
+    width: 20em;
+    margin-top: 3%;
+    margin-right: 35%;
+    padding: 10px;
+   
+}
+
+#login{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login-misc{
+    padding-top: 15px;
+    line-height: 2px;
+}
+/* login.html ends */
+
+/* signup.html */
+.signupcontainer{
+    float: right;
+    border: 2px solid rgb(7, 7, 7);
+    background-color: rgb(234, 234, 181);
+    height: 29.5em;
+    width: 20em;
+    margin-top: 1%;
+    margin-right: 35%;
+    margin-bottom: 3%;
+    padding: 10px;
+   
+}
+
+.signup-misc{
+    padding-top: 15px;
+    line-height: 2px;
+    white-space: nowrap;
+}
+
+#signup{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* districts */
+#districts{
+    background-color: beige;
+}
 
 #carouselExampleIndicators{
     height: 25rem;
@@ -64,11 +139,52 @@ header{background-color: rgb(250, 185, 7);
 }
 
 .container{
-    margin: 1%;}
+    padding-top: 4%;
+    padding-bottom: 2%;
+    }
     
 
 .card{
-    float: right;
-    padding: 5px;
-    margin-right: 20px;
+    float: left;
+    height: 33em;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    padding: 15px;
+    box-shadow: 2px 2px 4px #000000;;
 }
+
+.card img:hover{
+    transform: scale(1.1);
+}
+
+
+#carouselExampleIndicators{
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+
+.card-img-top{
+    object-fit: fill;
+}
+
+.card-text{
+    text-align: center;
+}
+ .card-title{
+     font-weight: bold;
+ }
+
+ .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+ 
