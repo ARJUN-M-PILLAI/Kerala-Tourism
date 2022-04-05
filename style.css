@@ -1,6 +1,15 @@
 *{padding: 0%;
 margin: 0%;}
 
+#ktw{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-top: 2%;
+    color: rgb(128, 205, 13);
+    text-shadow: 2px 2px black;
+}
+
 .card-title{
     text-align: center;
 }
@@ -79,6 +88,7 @@ form{
     padding-top: 15px;
     line-height: 2px;
 }
+
 /* login.html ends */
 
 /* signup.html */
@@ -107,6 +117,11 @@ form{
 }
 
 /* districts */
+
+#lastrow{
+    padding-left: 25.7%;
+}
+
 #districts{
     background-color: beige;
 }
@@ -124,7 +139,7 @@ form{
 }
 
 .container p{
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     text-align: center;
     color: rgb(112, 108, 108);
 
@@ -188,3 +203,93 @@ form{
     text-align: center;
  }
  
+ /* palakkad.html */
+ h1{
+     text-align: center;
+ }
+
+ .imagepalakkad{
+     padding-left: 20%;
+     padding-top: 2%;
+ }
+
+ .imagepalakkad img:hover{
+    transform: scale(1.1);
+ }
+
+ #palakkad{
+     font-weight: bold;
+ }
+
+ .districtspot{
+     text-align: center;
+ }
+
+ #hotspot{
+    font-weight: bold;
+ }
+
+.districtcard{
+    padding-bottom: 2%;
+}
+
+.palakkadhotspot{
+    padding-left: 4%;
+}
+
+/* Thiruvananthapuram */
+
+.imagetrm{
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.imagetrm img:hover{
+    transform: scale(1.1);
+ }
+
+ /* Alappuzha */
+
+ .imageal{
+    padding-left: 18%;
+    padding-top: 2%;
+}
+
+.imageal img:hover{
+    transform: scale(1.1);}
+
+/* Kozhikode */
+
+.imageko{
+    padding-left: 18%;
+    padding-top: 2%;
+}
+
+.imageko img:hover{
+    transform: scale(1.1);}
+
+/* Ernakulam */
+
+.imageer{
+    padding-left: 18%;
+    padding-top: 2%;
+}
+
+.imageer img:hover{
+    transform: scale(1.1);}
+
+/* social media icons */
+
+.icon{
+    float: left;
+        padding: 5px;
+        margin-bottom: 5%;
+    }
+    
+.icons{
+        margin-left: 540px;
+        margin-top: 0px;
+        
+    }
+    
+
