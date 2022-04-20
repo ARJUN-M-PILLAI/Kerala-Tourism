@@ -30,23 +30,23 @@
     <!-- Signup -->
     <div class="signupcontainer">
         <h1 id="signup">SignUp</h1>
-            <form>
+            <form action="./signedup.html" onsubmit="return validatesignup1()">
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Username</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="email" placeholder="Email ID" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" title="email id should be in the format abc@def.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Mobile Number</label>
+                  <input type="tel" class="form-control" placeholder="123 456 7890" id="exampleInputPhoneno" maxlength="12" title="Three formats allowed - XXX XXX XXXX, XXX-XXX-XXXX, XXX.XXX.XXXX">
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <input type="password" placeholder="Enter Password" class="form-control" id="exampleInputPassword1" title="Should contain minimum 8 characters, at least one uppercase, at least one lowercase and at least one number" >
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <input type="password" placeholder="Re-enter Password"class="form-control" id="exampleInputConPassword1" title="Confirm password by typing the same password as above">
                   </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
                 <button type="submit" class="btn btn-primary">SignUp</button>
                 <div class="signup-misc">
                     <h6>Already have an account?</h6>
@@ -59,6 +59,6 @@
           <h6>Copyright@2022</h6>
         </div>
     
-    
+        <script src="./form.js"></script>  
 </body>
 </html>
